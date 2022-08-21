@@ -1,10 +1,13 @@
 import "./App.css";
-import Form from "./components/Form";
-
+import ProfilePhoto from "./components/Profile/ProfilePhoto";
+import Adress from "./components/Profile/Adress"
+import FullName from "./components/Profile/FullName"
 function App() {
   return (
     <div>
-      <Form/>
+      <ProfilePhoto/>
+      <FullName/>
+      <Adress/>
     </div>
   );
 }
